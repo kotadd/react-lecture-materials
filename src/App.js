@@ -7,11 +7,12 @@ import Clock from './components/main-concepts/state-props-lifecycle/clock.compon
 import LoginControl from './components/main-concepts/conditional-rendering/login-control.component';
 import NumberList from './components/main-concepts/list-key/numberlist.component';
 import Reservation from './components/main-concepts/forms/reservation.component';
+import Calculator from './components/main-concepts/listup-state/boiling-verdict.component';
 
 function App() {
   return (
     <div className='App'>
-      <Reservation />
+      <Calculator />
     </div>
   );
 }
